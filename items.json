@@ -5,7 +5,13 @@
             "description": "Experience the thrill of the Dodge Charger SRT Hellcat, a high-performance muscle car with a supercharged V8 engine delivering exhilarating power and speed.",
             "url": "https://dunb17ur4ymx4.cloudfront.net/packages/images/9dbc9dda6981e98ffa1ecf6c0bde45c4c41ed823.png",
             "price": 1500
-        }
+        },
+        {
+            "name": "Dodge Charger SRT Hellcat 2",
+            "description": "Experience the thrill of the Dodge Charger SRT Hellcat, a high-performance muscle car with a supercharged V8 engine delivering exhilarating power and speed.",
+            "url": "https://dunb17ur4ymx4.cloudfront.net/packages/images/9dbc9dda6981e98ffa1ecf6c0bde45c4c41ed823.png",
+            "price": 1500
+        },
     ],
     "motos": [
         {
@@ -41,4 +47,5 @@
             "price": 5
         }
     ]
+
 }
