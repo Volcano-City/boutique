@@ -1,0 +1,44 @@
+{
+    "vehicles": [
+        {
+            "name": "Dodge Charger SRT Hellcat",
+            "description": "Experience the thrill of the Dodge Charger SRT Hellcat, a high-performance muscle car with a supercharged V8 engine delivering exhilarating power and speed.",
+            "url": "https://dunb17ur4ymx4.cloudfront.net/packages/images/9dbc9dda6981e98ffa1ecf6c0bde45c4c41ed823.png",
+            "price": 1500
+        }
+    ],
+    "motos": [
+        {
+            "name": "Ducati Panigale V4",
+            "description": "Italian superbike with race-inspired aerodynamics and 214 horsepower.",
+            "url": "https://dunb17ur4ymx4.cloudfront.net/packages/images/9dbc9dda6981e98ffa1ecf6c0bde45c4c41ed823.png",
+            "price": 800
+        }
+    ],
+    "packs": [
+        {
+            "name": "Starter Pack",
+            "description": "Perfect for new players. Includes vehicle, cash, and starter items.",
+            "url": "https://dunb17ur4ymx4.cloudfront.net/packages/images/9dbc9dda6981e98ffa1ecf6c0bde45c4c41ed823.png",
+            "price": 3000
+        }
+      
+    ],
+    "vip": [
+        {
+            "name": "VIP Bronze",
+            "description": "30 days of VIP perks including priority spawn and bonus XP.",
+            "url": "https://dunb17ur4ymx4.cloudfront.net/packages/images/9dbc9dda6981e98ffa1ecf6c0bde45c4c41ed823.png",
+            "price": 500
+        }
+       
+    ],
+    "coins": [
+        {
+            "name": "500 Coins",
+            "description": "Small coin pack for quick purchases.",
+            "url": "https://dunb17ur4ymx4.cloudfront.net/packages/images/9dbc9dda6981e98ffa1ecf6c0bde45c4c41ed823.png",
+            "price": 5
+        }
+    ]
+}

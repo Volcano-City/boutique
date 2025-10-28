@@ -1,0 +1,189 @@
+
+:root {
+    --grid-width: 23vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #181818;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1vw;
+
+    border-bottom:1px solid rgb(42, 42, 42);
+    /* background-color: red; */
+}
+
+.logo {
+    /* height: 90%; */
+    width: 10%;
+}
+
+.cat {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-container {
+    user-select: none;
+    margin: 2rem;
+    width: auto;;
+    height: 25%;
+    display: flex;
+    background-color: rgb(42, 42, 42);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: whitesmoke;
+}
+
+.category {
+    
+    padding: 0 1.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1.5rem; */
+
+}
+
+.category:first-child {
+    border-radius: 15px 0 0 15px;
+}
+
+.category:last-child {
+    border-radius: 0 15px 15px 0;
+}
+
+.category:hover {
+    background-color: rgb(62, 62, 62);
+    cursor: pointer;
+}
+
+.category.active {
+    background-color: rgb(228, 82, 34);
+    font-weight: 600;
+}
+
+
+.dc-logo {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    background: url('./Discord-Emblem.png') no-repeat center;
+    background-size: cover;
+    border: 1px solid #ffffff3f;
+    
+}
+
+.app {
+    width: 100%;
+    height: 85%;
+    color: white;
+}
+
+.app.animate {
+    animation: fadeIn 0.4s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.main-title {
+    font-size: 3rem;
+    margin: 3rem;
+    font-weight: 600;
+}
+
+.grid-container {
+    padding: 0 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50vh);
+    grid-template-rows: repeat(auto-fill, minmax(var(--grid-width), auto));
+    gap: 1.183rem;
+}
+
+.grid-item {
+    width: var(--grid-width);
+    /* min-height: 50vh; */
+    height: auto;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(42, 42, 42);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 1.2rem;
+}
+
+.grid-img {
+    width: 90%;
+    height: auto; /* avoid percentage height which depends on parent's definite height */
+    aspect-ratio: 16 / 9; /* keep a stable image height regardless of sibling content */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 1.2rem;
+    flex: 0 0 auto; /* prevent the image from shrinking in the column flex layout */
+    min-height: 120px; /* optional minimum for small viewports */
+
+}
+
+.grid-item-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.grid-item-desc {
+    font-size: 1rem;
+    color: rgb(180, 180, 180);
+    margin: 0.5rem 1.2rem;
+    text-align: center;
+    width: 90%;
+   
+}
+
+.grid-item-price {
+    /* height: 200px; */
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    background-color: rgb(228, 82, 34);
+    padding: 0.5rem 1.1rem;
+    border-radius: 10px;
+}
